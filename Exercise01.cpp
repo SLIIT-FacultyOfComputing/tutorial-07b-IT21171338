@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
     Item myItem;
-    myItem.display();
-    Item myItem2(100, 1000);
+    myItem.display();//default constructor
+    Item myItem2(100, 1000);//overloaded constructor
     myItem2.setDiscount(20);
     myItem2.display();
     
