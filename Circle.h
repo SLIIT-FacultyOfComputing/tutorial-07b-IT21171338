@@ -7,7 +7,7 @@ class Circle {
    public:
       Circle(); // Default Constructor
       Circle(int r); // Overloaded Constructor
-      ~Circle(); // Destructor
       void display();
       float calcArea();
+      ~Circle(); // Destructor
 };
